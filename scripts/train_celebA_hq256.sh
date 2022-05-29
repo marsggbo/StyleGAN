@@ -1,0 +1,1 @@
+python train.py --outdir=./logs --cfg=stylegan2 --data ../celebA-HQ/celeba_hq_256_stylegan_parsed.zip  --gpus 4 --batch=64 --gamma 10 --mirror=1 --aug=noaug

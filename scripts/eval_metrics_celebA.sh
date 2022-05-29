@@ -1,0 +1,2 @@
+python calc_metrics.py --metrics=is50k,fid50k --data=../celebA-HQ/celeba_hq_256_stylegan_parsed.zip --mirror=1 \
+    --network=/home/xihe/xinhe/stylegan3/logs/00010-stylegan2-celeba_hq_256_stylegan_parsed-gpus4-batch64-gamma10/network-snapshot-004636.pkl --gpus 4 &
